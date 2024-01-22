@@ -1,3 +1,115 @@
 .calculator-container {
+    display: flex;
+    justify-content: center;
     height: 100vh;
+}
+
+.calculator {
+    width: 500px;
+    height: 700px;
+
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.input-screen {
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 475px;
+    height: 86px;
+    background-color: #303030;
+}
+
+.buttons {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.ac-box, .equal-box {
+    width: 86px;
+    height: 86px;
+
+    background-color: #B07111;
+    margin: 12px;
+}
+
+
+/* .ac-box .ac, .equal-box .equal {
+    display: flex;
+    width: 86px;
+    height: 86px;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+
+    color: #FFF;
+    background-color: transparent;
+
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+} */
+
+.divmod-box, .divide-box, .multiple-box, .minus-box, .plus-box, .one-box, .two-box, .three-box, .four-box, .five-box, .six-box, .seven-box, .eight-box, .nine-box{
+    width: 86px;
+    height: 86px;
+
+    background-color: #000000;
+    margin: 12px;
+}
+
+.divmod-box .divmod, .divide-box .divide, .one-box .one, .two-box .two, 
+.three-box .three, .multiple-box .multiple, .four-box .four, .five-box .five, 
+.six-box .six, .minus-box .minus,.seven-box .seven, .eight-box .eight, .nine-box .nine 
+,.plus-box .plus, .ac-box .ac, .equal-box .equal {
+    display: flex;
+    width: 86px;
+    height: 86px;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+
+    color: #FFF;
+    background-color: transparent;
+
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.zero-box, .dot-box {
+    width: 216px;
+    height: 86px;
+    
+    background-color: black;
+    margin: 12px;
+
+}
+
+.zero-box .zero, .dot-box .dot {
+    display: flex;
+    width: 216px;
+    height: 86px;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+
+    color: #FFF;
+    background-color: transparent;
+
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
